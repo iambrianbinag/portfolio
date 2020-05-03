@@ -7,7 +7,6 @@ import {
   MDBNavbarToggler,
   MDBCollapse,
   MDBContainer,
-  MDBWaves,
 } from "mdbreact";
 import { Link, animateScroll as scroll } from "react-scroll";
 
@@ -29,17 +28,6 @@ class Navbar extends Component {
     scroll.scrollToTop();
   }
 
-  handleClick = (e) => {
-    e.stopPropagation();
-    // Waves - Get Cursor Position
-    let cursorPos = {
-      top: e.clientY,
-      left: e.clientX,
-      time: Date.now(), // time indicates particular clicks
-    };
-    this.setState({ cursorPos: cursorPos });
-  };
-
   setLink(to, label) {
     return (
       <Link
@@ -50,11 +38,8 @@ class Navbar extends Component {
         smooth={true}
         duration={500}
         onClick={this.toggleCollapseCustom}
-        onMouseUp={this.handleClick}
-        onTouchStart={this.handleClick}
       >
         {label}
-        <MDBWaves cursorPos={this.state.cursorPos} />
       </Link>
     );
   }
