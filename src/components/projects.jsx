@@ -67,8 +67,7 @@ const Projects = () => {
                   </MDBCardTitle>
                   <MDBCardText>
                     Allows the processing and recording of transactions between
-                    a store and customers, at the time in which goods are
-                    purchased, and also tracking the stocks in inventory.
+                    a store and customers, and also tracking the stocks in inventory.
                     <br />
                     <br />
                     Tech Stack: C# and MySQL
