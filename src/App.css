@@ -45,8 +45,9 @@ div.logo-description {
 }
 
 /* CONTACTS */
+
 .btn-contacts {
-  width: 120px;
+  width: 149px;
 }
 
 .btn-facebook {
@@ -57,10 +58,18 @@ div.logo-description {
   background-color: #dd4b39 !important;
 }
 
+.btn-linkedin {
+  background-color: #0082ca !important;
+}
+
 .btn-youtube {
   background-color: #ed302f !important;
 }
 
 .btn-github {
   background-color: #333 !important;
+}
+
+.btn-stack-overflow {
+  background-color: #ffac44 !important;
 }

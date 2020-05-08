@@ -33,6 +33,15 @@ const Contacts = () => {
             <MDBIcon icon="envelope" className="pr-1" /> Gmail
           </MDBBtn>
           <MDBBtn
+            social="li"
+            size="md"
+            className="btn-linkedin btn-contacts"
+            href="https://www.linkedin.com/in/brian-binag-8b77421a9"
+            target="_blank"
+          >
+            <MDBIcon fab icon="linkedin-in" className="pr-1" /> Linkedin
+          </MDBBtn>
+          <MDBBtn
             social="yt"
             size="md"
             className="btn-youtube btn-contacts"
@@ -49,6 +58,16 @@ const Contacts = () => {
             target="_blank"
           >
             <MDBIcon fab icon="github" className="pr-1" /> Github
+          </MDBBtn>
+          <MDBBtn
+            social="so"
+            size="md"
+            className="btn-stack-overflow btn-contacts"
+            href="https://stackoverflow.com/users/9297508/brian-binag?tab=profile"
+            target="_blank"
+          >
+            <MDBIcon fab icon="stack-overflow" className="pr-1" /> Stack
+            Overflow
           </MDBBtn>
         </MDBContainer>
       </ScrollAnimation>
