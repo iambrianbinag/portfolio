@@ -95,8 +95,16 @@ const Skills = () => {
             <div className="logo-description">React</div>
           </div>
           <div className="rounded bg-white m-1 p-1">
+            <img src={php} alt="PHP" className="box-picture" />
+            <div className="logo-description">PHP</div>
+          </div>
+          <div className="rounded bg-white m-1 p-1">
             <img src={laravel} alt="Laravel" className="box-picture" />
             <div className="logo-description">Laravel</div>
+          </div>
+          <div className="rounded bg-white m-1 p-1">
+            <img src={mysql} alt="MySQL" className="box-picture" />
+            <div className="logo-description">MySQL</div>
           </div>
         </div>
       </ScrollAnimation>
