@@ -12,7 +12,7 @@ const Contacts = () => {
         <h2 className="mb-4">
           <strong>CONTACTS</strong>
         </h2>
-        <MDBContainer>
+        <MDBContainer fluid>
           <MDBBtn
             social="fb"
             size="md"

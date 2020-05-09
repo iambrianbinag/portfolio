@@ -36,9 +36,9 @@ const Projects = () => {
                     Clinic Record Management System
                   </MDBCardTitle>
                   <MDBCardText>
-                    My Capstone project in college. This system records and
-                    monitors the patients that were bitten by animals and will
-                    be vaccinated to treat the rabies.
+                    It was my Capstone project in college. This system records
+                    and monitors the patients that were bitten by animals and
+                    will be vaccinated to treat the rabies.
                     <br />
                     <br />
                     My Position: Both front end and back end
@@ -70,7 +70,7 @@ const Projects = () => {
                     POS with Inventory System using Barcode Scanner
                   </MDBCardTitle>
                   <MDBCardText>
-                    My Thesis project in Software Engineering subject in
+                    It was my Thesis project in Software Engineering subject in
                     college. This system processes and records the transactions
                     between a store and customers, and also tracking the status
                     of stocks in the inventory.
