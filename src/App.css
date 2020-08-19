@@ -34,6 +34,12 @@ body {
   }
 }
 
+/* NAVBAR */
+.my-logo {
+  width: 26px;
+  height: 26px;
+}
+
 /* SKILLS */
 img.box-picture {
   width: 75px;

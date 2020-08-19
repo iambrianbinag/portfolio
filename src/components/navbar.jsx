@@ -9,6 +9,7 @@ import {
   MDBContainer,
 } from "mdbreact";
 import { Link, animateScroll as scroll } from "react-scroll";
+import MyLogo from "../img/my-logo.png";
 
 class Navbar extends Component {
   state = {
@@ -59,7 +60,7 @@ class Navbar extends Component {
             onClick={this.scrollToTop}
             style={{ cursor: "pointer" }}
           >
-            <strong className="white-text">&#60;&#47;&#62;</strong>
+            <img src={MyLogo} alt="Me" className="my-logo" />
           </MDBNavbarBrand>
           <MDBNavbarToggler onClick={this.toggleCollapse} />
           <MDBCollapse id="navbarCollapse3" isOpen={this.state.isOpen} navbar>

@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "../img/brian.jpg";
+import Image from "../img/my-picture.jpg";
 import ScrollAnimation from "react-animate-on-scroll";
 
 const Myprofile = () => {
