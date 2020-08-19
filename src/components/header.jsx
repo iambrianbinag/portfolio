@@ -119,7 +119,12 @@ const Header = () => {
       />
       <h1 className="white-text text-center p-1" id="header">
         <ReactTypingEffect
-          text={["Hi", "Welcome!", "I'm Brian Binag", "I Love web development"]}
+          text={[
+            "Hi",
+            "Welcome!",
+            "I'm Brian Binag",
+            "I am passionate developer",
+          ]}
         />
       </h1>
     </div>
