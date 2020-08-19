@@ -119,6 +119,9 @@ const Header = () => {
       />
       <h1 className="white-text text-center p-1" id="header">
         <ReactTypingEffect
+          speed={125}
+          eraseDelay={1250}
+          typingDelay={625}
           text={[
             "Hi",
             "Welcome!",
