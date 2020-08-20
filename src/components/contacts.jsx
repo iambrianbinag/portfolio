@@ -14,16 +14,6 @@ const Contacts = () => {
         </h2>
         <MDBContainer fluid>
           <MDBBtn
-            social="fb"
-            size="md"
-            className="btn-facebook btn-contacts"
-            href="https://www.facebook.com/binag31"
-            target="_blank"
-          >
-            <MDBIcon fab icon="facebook-f" className="pr-1" />
-            Facebook
-          </MDBBtn>
-          <MDBBtn
             social="email"
             size="md"
             className="btn-gmail btn-contacts"
@@ -40,6 +30,16 @@ const Contacts = () => {
             target="_blank"
           >
             <MDBIcon fab icon="linkedin-in" className="pr-1" /> Linkedin
+          </MDBBtn>
+          <MDBBtn
+            social="fb"
+            size="md"
+            className="btn-facebook btn-contacts"
+            href="https://www.facebook.com/binag31"
+            target="_blank"
+          >
+            <MDBIcon fab icon="facebook-f" className="pr-1" />
+            Facebook
           </MDBBtn>
           <MDBBtn
             social="yt"
