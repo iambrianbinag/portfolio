@@ -41,13 +41,29 @@ body {
 }
 
 /* SKILLS */
-img.box-picture {
-  width: 75px;
-  height: 75px;
+.div-logo-group > div > div {
+  font-size: 0.8rem;
 }
 
-div.logo-description {
-  font-size: 0.8rem;
+.div-logo-group > div.div-category-frontend {
+  border-left: 0.3rem solid yellow;
+}
+
+.div-logo-group > div.div-category-backend {
+  border-left: 0.3rem solid blue;
+}
+
+.div-logo-group > div.div-category-tools {
+  border-left: 0.3rem solid green;
+}
+
+.div-logo-group > div.div-category-others {
+  border-left: 0.3rem solid grey;
+}
+
+.div-logo-group > div > img.box-picture {
+  width: 75px;
+  height: 75px;
 }
 
 /* CONTACTS */
