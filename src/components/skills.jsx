@@ -36,30 +36,30 @@ const Skills = () => {
               <strong>SKILLS</strong>
             </h2>
             <div className="div-logo-group d-flex flex-wrap justify-content-center grey-text mb-3">
-              <div className="div-category-frontend bg-white p-1 ml-1 mr-1 mb-2">
+              <div className="div-category-frontend bg-white m-1 p-1">
                 <div>Frontend</div>
               </div>
-              <div className="div-category-backend bg-white p-1 ml-1 mr-1 mb-2">
+              <div className="div-category-backend bg-white m-1 p-1">
                 <div>Backend</div>
               </div>
-              <div className="div-category-tools bg-white p-1 ml-1 mr-1 mb-2">
+              <div className="div-category-tools bg-white m-1 p-1">
                 <div>Development Tools</div>
               </div>
-              <div className="div-category-others bg-white p-1 ml-1 mr-1 mb-2">
+              <div className="div-category-others bg-white m-1 p-1">
                 <div>Others</div>
               </div>
             </div>
             <hr className="bg-white" />
             <div className="div-logo-group d-flex flex-wrap justify-content-center grey-text mt-4 pb-5">
-              <div className="div-category-frontend rounded bg-white ml-1 mr-1 mb-1 pl-1">
+              <div className="div-category-frontend rounded bg-white m-1 p-1">
                 <img src={html5} alt="HTML" className="box-picture" />
                 <div className="logo-description">HTML</div>
               </div>
-              <div className="div-category-frontend rounded bg-white ml-1 mr-1 mb-1 p-1">
+              <div className="div-category-frontend rounded bg-white m-1 p-1">
                 <img src={css3} alt="CSS" className="box-picture" />
                 <div className="logo-description">CSS3</div>
               </div>
-              <div className="div-category-frontend rounded bg-white ml-1 mr-1 mb-1 p-1">
+              <div className="div-category-frontend rounded bg-white m-1 p-1">
                 <img
                   src={javascript}
                   alt="Javascript"
@@ -67,19 +67,19 @@ const Skills = () => {
                 />
                 <div className="logo-description">Javascript</div>
               </div>
-              <div className="div-category-frontend rounded bg-white ml-1 mr-1 mb-1 p-1">
+              <div className="div-category-frontend rounded bg-white m-1 p-1">
                 <img src={bootstrap} alt="Bootstrap" className="box-picture" />
                 <div className="logo-description">Bootstrap</div>
               </div>
-              <div className="div-category-frontend rounded bg-white ml-1 mr-1 mb-1 p-1">
+              <div className="div-category-frontend rounded bg-white m-1 p-1">
                 <img src={jquery} alt="jquery" className="box-picture" />
                 <div className="logo-description">JQuery</div>
               </div>
-              <div className="div-category-frontend rounded bg-white ml-1 mr-1 mb-1 p-1">
+              <div className="div-category-frontend rounded bg-white m-1 p-1">
                 <img src={react} alt="React" className="box-picture" />
                 <div className="logo-description">React</div>
               </div>
-              <div className="div-category-frontend rounded bg-white ml-1 mr-1 mb-1 p-1">
+              <div className="div-category-frontend rounded bg-white m-1 p-1">
                 <img src={materialUI} alt="React" className="box-picture" />
                 <div className="logo-description">Material UI</div>
               </div>
