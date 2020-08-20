@@ -41,6 +41,13 @@ body {
 }
 
 /* SKILLS */
+@media (min-width: 768px) {
+  .skills-wrapper {
+    width: 75%;
+    margin: auto;
+  }
+}
+
 .div-logo-group > div > div {
   font-size: 0.8rem;
 }
