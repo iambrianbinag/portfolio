@@ -10,6 +10,11 @@ body {
   font-family: "Roboto Condensed", sans-serif;
 }
 
+/* Utilities */
+.cursor-pointer{
+  cursor: pointer;
+}
+
 /* Image Pulse Animation */
 .img-portrait {
   width: 200px;

@@ -9,6 +9,7 @@ import Skills from "./components/skills";
 import Projects from "./components/projects";
 import Contacts from "./components/contacts";
 import Footer from "./components/footer";
+import "react-image-gallery/styles/css/image-gallery.css";
 import "animate.css/animate.min.css";
 import "./App.css";
 

@@ -15,6 +15,8 @@ import {
 } from "mdbreact";
 
 import ReactPlayer from "react-player";
+import ImageGallery from "react-image-gallery";
+import { posWithInventorySystemImages } from "../resources/images";
 
 import posinventorysystem from "../img/project-posinventorysystem.png";
 import clinicrecordmanagementsystem from "../img/project-clinicrecordmanagementsystem.png";
@@ -22,14 +24,19 @@ import covid19Tracker from "../img/project-covid-19-tracker.png";
 import ScrollAnimation from "react-animate-on-scroll";
 
 const Projects = () => {
-  const [openModalVideoPreview, setOpenModalVideoPreview] = useState(false);
+  const [openModalProjectPreview, setOpenModalProjectPreview] = useState(false);
+  const [tabInModalOpen, setTabInModalOpen] = useState("images");
 
-  const handleCloseModalVideoPreview = () => {
-    setOpenModalVideoPreview(false);
+  const handleCloseModalProjectPreview = () => {
+    setOpenModalProjectPreview(false);
   };
 
-  const handleOpenModalVideoPreview = (e) => {
-    setOpenModalVideoPreview(true);
+  const handleOpenModalProjectPreview = (e) => {
+    setOpenModalProjectPreview(true);
+  };
+
+  const handleClickTabInModal = (preview) => {
+    setTabInModalOpen(preview);
   };
 
   return (
@@ -38,18 +45,51 @@ const Projects = () => {
       <MDBModal
         size="lg"
         centered
-        isOpen={openModalVideoPreview}
-        toggle={handleCloseModalVideoPreview}
+        isOpen={openModalProjectPreview}
+        toggle={handleCloseModalProjectPreview}
       >
-        <MDBModalHeader toggle={handleCloseModalVideoPreview}></MDBModalHeader>
+        <MDBModalHeader toggle={handleCloseModalProjectPreview}>
+          POS with Inventory System
+        </MDBModalHeader>
         <MDBModalBody>
-          <ReactPlayer
-            url="https://www.youtube.com/watch?v=aYzfc0CmRzk&t=230s"
-            playing
-            loop
-            controls
-            width="100%"
-          />
+          <ul className="nav nav-tabs">
+            <li className="nav-item">
+              <div
+                className={
+                  tabInModalOpen === "images"
+                    ? "nav-link cursor-pointer active"
+                    : "nav-link cursor-pointer"
+                }
+                onClick={() => handleClickTabInModal("images")}
+              >
+                Images
+              </div>
+            </li>
+            <li className="nav-item">
+              <div
+                className={
+                  tabInModalOpen === "video"
+                    ? "nav-link active cursor-pointer"
+                    : "nav-link cursor-pointer"
+                }
+                onClick={() => handleClickTabInModal("video")}
+              >
+                Video
+              </div>
+            </li>
+          </ul>
+          <div className="mt-2">
+            {tabInModalOpen === "images" ? (
+              <ImageGallery showIndex items={posWithInventorySystemImages} />
+            ) : (
+              <ReactPlayer
+                url="https://www.youtube.com/watch?v=aYzfc0CmRzk&t=230s"
+                loop
+                controls
+                width="100%"
+              />
+            )}
+          </div>
         </MDBModalBody>
       </MDBModal>
       <div className="pt-5 pb-5 text-center" id="projects">
@@ -117,7 +157,7 @@ const Projects = () => {
                     </MDBCardText>
                     <MDBBtn
                       className="view-btn-second-project"
-                      onClick={handleOpenModalVideoPreview}
+                      onClick={handleOpenModalProjectPreview}
                       target="_blank"
                     >
                       View
