@@ -113,10 +113,10 @@ const Projects = () => {
                     </MDBCardTitle>
                     <MDBCardText>
                       This system records and monitors the patients that were
-                      bitten by animals and will be vaccinated to treat the
-                      rabies. It have statistics to know the total number of
-                      incident per region, province, city/municipality, or
-                      baranggay nationwide.
+                      bitten by animals which will be vaccinated to treat the
+                      rabies. It has statistics to know the total number of
+                      incidents per region, province, city/municipality, or
+                      barangay nationwide.
                       <br />
                       <br />
                       Tech Stack: HTML, CSS, Javascript, Bootstrap 4, JQuery,
@@ -146,11 +146,11 @@ const Projects = () => {
                       General Clinic Management System
                     </MDBCardTitle>
                     <MDBCardText>
-                      This system manage patient records including case history,
-                      documents, prescriptions, appointments, and payments. It
-                      has inventory that tracks the stocks of medicines, and
-                      also sales reporting. Patient can be logged in to view
-                      his/her records.
+                      This system manages patient records including case
+                      history, documents, prescriptions, appointments, and
+                      payments. It has inventory that tracks the stocks of
+                      medicines and has also sales reporting. Patient can be
+                      logged in to view his/her records.
                       <br />
                       <br />
                       Tech Stack: React JS, Material UI, and Laravel
@@ -180,7 +180,7 @@ const Projects = () => {
                     </MDBCardTitle>
                     <MDBCardText>
                       This system processes and records the transactions between
-                      a store and customers, cancel transaction, tracks the
+                      the store and customers, cancel transaction, tracks the
                       status of stocks and alert if the quantity is in critical
                       level, generate sales report, and tracks the history of
                       every user's action in the system.
@@ -214,7 +214,7 @@ const Projects = () => {
                     <MDBCardText>
                       Tracks current Covid-19 status worldwide including the
                       outbreak trend cases in the past 98 days. The data is
-                      being fetched from API.
+                      being fetched from an API.
                       <br />
                       <br />
                       Tech Stack: React JS and Bootstrap 4
