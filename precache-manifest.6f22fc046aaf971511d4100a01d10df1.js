@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f62123568c91c2523b3c6c4608e18578",
+    "revision": "2256534a5985b207cf95fe29cb3eaebc",
     "url": "/index.html"
   },
   {
-    "revision": "161ee9d44038c3bc7b98",
+    "revision": "93241d707ffe372d2587",
     "url": "/static/css/2.42455bd1.chunk.css"
   },
   {
-    "revision": "bf8b269531863f7debdd",
-    "url": "/static/css/main.e8b5b5eb.chunk.css"
+    "revision": "498192c9c0200832b3a7",
+    "url": "/static/css/main.9218c30a.chunk.css"
   },
   {
-    "revision": "161ee9d44038c3bc7b98",
-    "url": "/static/js/2.39e6dc2c.chunk.js"
+    "revision": "93241d707ffe372d2587",
+    "url": "/static/js/2.b4fe9246.chunk.js"
   },
   {
     "revision": "4c9f6bf0b2443eda3f2900d75f3caae2",
-    "url": "/static/js/2.39e6dc2c.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.b4fe9246.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "bf8b269531863f7debdd",
-    "url": "/static/js/main.325dc273.chunk.js"
+    "revision": "498192c9c0200832b3a7",
+    "url": "/static/js/main.4eac35aa.chunk.js"
   },
   {
     "revision": "942769532d6a659573e1",
@@ -130,6 +130,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b2258d1bd9f92885ec0ad6ea2bc50fa2",
     "url": "/static/media/project-covid-19-tracker.b2258d1b.png"
+  },
+  {
+    "revision": "ab45d91424032fe2e5f854837ed6eac4",
+    "url": "/static/media/project-generalclinicmanagementsystem.ab45d914.png"
   },
   {
     "revision": "862e1196460a54e39a9e462b2ac18c51",
