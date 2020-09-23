@@ -119,14 +119,14 @@ const Header = () => {
       />
       <h1 className="white-text text-center p-1" id="header">
         <ReactTypingEffect
-          speed={125}
-          eraseDelay={1250}
-          typingDelay={625}
+          speed={100}
+          eraseDelay={200}
+          typingDelay={620}
           text={[
             "Hi",
             "Welcome!",
             "I'm Brian Binag",
-            "I'm Passionate Developer",
+            "I'm a Full Stack Web Developer",
           ]}
         />
       </h1>

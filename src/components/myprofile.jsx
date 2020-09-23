@@ -24,7 +24,7 @@ const Myprofile = () => {
         </h3>
         <p className="mt-2 p-1 w-50 blue-grey-text w-100">
           I'm a goal getter, as well as a self-starter, striving to learn and
-          hone my skills in different technology.
+          hone my skills in web development.
         </p>
       </ScrollAnimation>
       <ScrollAnimation animateIn="fadeIn" animateOnce>

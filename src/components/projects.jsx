@@ -20,6 +20,7 @@ import { posWithInventorySystemImages } from "../resources/images";
 
 import posinventorysystem from "../img/project-posinventorysystem.png";
 import clinicrecordmanagementsystem from "../img/project-clinicrecordmanagementsystem.png";
+import generalclinicmanagementsystem from "../img/project-generalclinicmanagementsystem.png";
 import covid19Tracker from "../img/project-covid-19-tracker.png";
 import ScrollAnimation from "react-animate-on-scroll";
 
@@ -115,8 +116,7 @@ const Projects = () => {
                       bitten by animals and will be vaccinated to treat the
                       rabies. It have statistics to know the total number of
                       incident per region, province, city/municipality, or
-                      baranggay nationwide, and can be filtered by different
-                      options.
+                      baranggay nationwide.
                       <br />
                       <br />
                       Tech Stack: HTML, CSS, Javascript, Bootstrap 4, JQuery,
@@ -125,6 +125,39 @@ const Projects = () => {
                     <MDBBtn
                       className="view-btn-first-project"
                       href="https://clinicrecordmanagement.ml"
+                      target="_blank"
+                    >
+                      View
+                    </MDBBtn>
+                  </MDBCardBody>
+                </MDBCard>
+              </ScrollAnimation>
+            </MDBCol>
+            <MDBCol md="6" lg="4" className="mb-4">
+              <ScrollAnimation animateIn="fadeIn" animateOnce>
+                <MDBCard className="card-project">
+                  <MDBCardImage
+                    className="img-fluid"
+                    src={generalclinicmanagementsystem}
+                    waves
+                  />
+                  <MDBCardBody>
+                    <MDBCardTitle style={{ fontSize: 20 }}>
+                      General Clinic Management System
+                    </MDBCardTitle>
+                    <MDBCardText>
+                      This system manage patient records including case history,
+                      documents, prescriptions, appointments, and payments. It
+                      has inventory that tracks the stocks of medicines, and
+                      also sales reporting. Patient can be logged in to view
+                      his/her records.
+                      <br />
+                      <br />
+                      Tech Stack: React JS, Material UI, and Laravel
+                    </MDBCardText>
+                    <MDBBtn
+                      className="view-btn-second-project"
+                      href="https://github.com/MutedFaith/general-clinic-management-system"
                       target="_blank"
                     >
                       View
@@ -148,15 +181,15 @@ const Projects = () => {
                     <MDBCardText>
                       This system processes and records the transactions between
                       a store and customers, cancel transaction, tracks the
-                      status of stocks and alert if the quantity is low or out
-                      of stocks, generate sales and profit report, and records
-                      the history of every user's action in the system.
+                      status of stocks and alert if the quantity is in critical
+                      level, generate sales report, and tracks the history of
+                      every user's action in the system.
                       <br />
                       <br />
                       Tech Stack: C# and MySQL
                     </MDBCardText>
                     <MDBBtn
-                      className="view-btn-second-project"
+                      className="view-btn-third-project"
                       onClick={handleOpenModalProjectPreview}
                       target="_blank"
                     >
@@ -166,7 +199,7 @@ const Projects = () => {
                 </MDBCard>
               </ScrollAnimation>
             </MDBCol>
-            <MDBCol md="6" lg="4" className="offset-md-3 mb-4 offset-lg-0">
+            <MDBCol md="6" lg="4" className="mb-4 offset-lg-4">
               <ScrollAnimation animateIn="fadeIn" animateOnce>
                 <MDBCard className="card-project">
                   <MDBCardImage
@@ -187,7 +220,7 @@ const Projects = () => {
                       Tech Stack: React JS and Bootstrap 4
                     </MDBCardText>
                     <MDBBtn
-                      className="view-btn-third-project"
+                      className="view-btn-fourth-project"
                       href="https://covid-19-tracker-worldwide.herokuapp.com/"
                       target="_blank"
                     >
