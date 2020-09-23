@@ -2,7 +2,7 @@ import React from "react";
 import MyImage from "../img/my-picture.jpg";
 import ScrollAnimation from "react-animate-on-scroll";
 
-const Myprofile = () => {
+const MyProfile = () => {
   return (
     <div
       className="d-flex flex-column justify-content-center align-items-center text-center pl-2 pr-2 pt-5 pb-5"
@@ -41,4 +41,4 @@ const Myprofile = () => {
   );
 };
 
-export default Myprofile;
+export default MyProfile;
