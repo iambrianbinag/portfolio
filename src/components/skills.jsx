@@ -58,7 +58,7 @@ const Skills = () => {
             </div>
             <div className="div-category-frontend rounded bg-white m-1 p-1">
               <img src={javascript} alt="Javascript" className="box-picture" />
-              <div className="logo-description">Javascript</div>
+              <div className="logo-description">JavaScript</div>
             </div>
             <div className="div-category-frontend rounded bg-white m-1 p-1">
               <img src={bootstrap} alt="Bootstrap" className="box-picture" />
@@ -66,7 +66,7 @@ const Skills = () => {
             </div>
             <div className="div-category-frontend rounded bg-white m-1 p-1">
               <img src={jquery} alt="jquery" className="box-picture" />
-              <div className="logo-description">JQuery</div>
+              <div className="logo-description">jQuery</div>
             </div>
             <div className="div-category-frontend rounded bg-white m-1 p-1">
               <img src={react} alt="React" className="box-picture" />
@@ -86,7 +86,7 @@ const Skills = () => {
             </div>
             <div className="div-category-backend rounded bg-white m-1 p-1">
               <img src={rest} alt="Laravel" className="box-picture" />
-              <div className="logo-description">REST API</div>
+              <div className="logo-description">RESTful API</div>
             </div>
             <div className="div-category-backend rounded bg-white m-1 p-1">
               <img src={mysql} alt="MySQL" className="box-picture" />
