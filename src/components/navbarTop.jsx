@@ -11,7 +11,7 @@ import {
 import { Link, animateScroll as scroll } from "react-scroll";
 import MyLogo from "../img/my-logo.png";
 
-class Navbar extends Component {
+class NavbarTop extends Component {
   state = {
     isOpen: false,
     cursorPos: {},
@@ -77,4 +77,4 @@ class Navbar extends Component {
   }
 }
 
-export default Navbar;
+export default NavbarTop;

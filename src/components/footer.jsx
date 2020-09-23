@@ -5,7 +5,7 @@ const Footer = () => {
   const currentyear = date.getFullYear();
 
   return (
-    <div className="elegant-color white-text text-center p-2">
+    <div className="elegant-color white-text text-center pl-2 pt-2 pr-2 pb-5">
       <small className="grey-text">&#169; Brian Binag {currentyear}</small>
     </div>
   );

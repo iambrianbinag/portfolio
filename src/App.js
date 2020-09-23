@@ -2,7 +2,8 @@ import React from "react";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import "bootstrap-css-only/css/bootstrap.min.css";
 import "mdbreact/dist/css/mdb.css";
-import Navbar from "./components/navbar";
+import NavbarTop from "./components/navbarTop";
+import NavbarBottom from "./components/navbarBottom";
 import Header from "./components/header";
 import MyProfile from "./components/myprofile";
 import Skills from "./components/skills";
@@ -16,13 +17,14 @@ import "./App.css";
 function App() {
   return (
     <React.Fragment>
-      <Navbar />
+      <NavbarTop />
       <Header />
       <MyProfile />
       <Skills />
       <Projects />
       <Contacts />
       <Footer />
+      <NavbarBottom />
     </React.Fragment>
   );
 }
