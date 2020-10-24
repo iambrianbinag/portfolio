@@ -14,7 +14,7 @@ import mysql from "../img/logo-mysql.png";
 import csharp from "../img/logo-csharp.png";
 import java from "../img/logo-java.png";
 import git from "../img/logo-git.png";
-import postman from "../img/logo-postman.png";
+// import postman from "../img/logo-postman.png";
 // import visualStudio from "../img/logo-visual-studio.png";
 // import visualStudioCode from "../img/logo-visual-studio-code.png";
 // import sublimeText from "../img/logo-sublime-text.png";
