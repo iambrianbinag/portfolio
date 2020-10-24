@@ -15,9 +15,9 @@ import csharp from "../img/logo-csharp.png";
 import java from "../img/logo-java.png";
 import git from "../img/logo-git.png";
 import postman from "../img/logo-postman.png";
-import visualStudio from "../img/logo-visual-studio.png";
-import visualStudioCode from "../img/logo-visual-studio-code.png";
-import sublimeText from "../img/logo-sublime-text.png";
+// import visualStudio from "../img/logo-visual-studio.png";
+// import visualStudioCode from "../img/logo-visual-studio-code.png";
+// import sublimeText from "../img/logo-sublime-text.png";
 
 import ScrollAnimation from "react-animate-on-scroll";
 
@@ -104,7 +104,7 @@ const Skills = () => {
               <img src={git} alt="Java" className="box-picture" />
               <div className="logo-description">Git</div>
             </div>
-            <div className="div-category-tools rounded bg-white m-1 p-1">
+            {/* <div className="div-category-tools rounded bg-white m-1 p-1">
               <img src={postman} alt="Java" className="box-picture" />
               <div className="logo-description">Postman</div>
             </div>
@@ -119,7 +119,7 @@ const Skills = () => {
             <div className="div-category-tools rounded bg-white m-1 p-1">
               <img src={sublimeText} alt="Java" className="box-picture" />
               <div className="logo-description">Sublime Text</div>
-            </div>
+            </div> */}
           </div>
         </ScrollAnimation>
       </div>
