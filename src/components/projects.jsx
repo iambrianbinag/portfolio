@@ -119,7 +119,7 @@ const Projects = () => {
                       barangay nationwide.
                       <br />
                       <br />
-                      Tech Stack: HTML, CSS, Javascript, Bootstrap 4, JQuery,
+                      Tech Stack: HTML, CSS, JavaScript, Bootstrap 4, jQuery,
                       PHP, and MySQL
                     </MDBCardText>
                     <MDBBtn
@@ -150,14 +150,14 @@ const Projects = () => {
                       history, documents, prescriptions, appointments, and
                       payments. It has inventory that tracks the stocks of
                       medicines and has also sales reporting. Patient can be
-                      logged in to view his/her records.
+                      logged in to view his/her records and book appointments.
                       <br />
                       <br />
                       Tech Stack: React JS, Material UI, and Laravel
                     </MDBCardText>
                     <MDBBtn
                       className="view-btn-second-project"
-                      href="https://github.com/MutedFaith/general-clinic-management-system"
+                      href="https://clinicare.site"
                       target="_blank"
                     >
                       View
