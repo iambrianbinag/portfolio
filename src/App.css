@@ -58,19 +58,19 @@ body {
 }
 
 .div-logo-group > div.div-category-frontend {
-  border-left: 0.3rem solid yellow;
+  border-left: 0.3rem solid #ffee58;
 }
 
 .div-logo-group > div.div-category-backend {
-  border-left: 0.3rem solid blue;
+  border-left: 0.3rem solid #42a5f5;
 }
 
 .div-logo-group > div.div-category-tools {
-  border-left: 0.3rem solid green;
+  border-left: 0.3rem solid #66bb6a;
 }
 
 .div-logo-group > div.div-category-others {
-  border-left: 0.3rem solid grey;
+  border-left: 0.3rem solid #bdbdbd;
 }
 
 .div-logo-group > div > img.box-picture {
