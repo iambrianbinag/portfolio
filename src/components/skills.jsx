@@ -4,9 +4,12 @@ import html5 from "../img/skills/logo-html5.png";
 import css3 from "../img/skills/logo-css3.png";
 import javascript from "../img/skills/logo-javascript.png";
 import bootstrap from "../img/skills/logo-bootstrap.png";
+import sass from "../img/skills/logo-sass.png";
 import jquery from "../img/skills/logo-jquery.png";
 import react from "../img/skills/logo-react.png";
+import vue from "../img/skills/logo-vue.png";
 import materialUI from "../img/skills/logo-material-ui.png";
+import elementlUI from "../img/skills/logo-element-ui.png";
 import php from "../img/skills/logo-php.png";
 import laravel from "../img/skills/logo-laravel.png";
 import rest from "../img/skills/logo-rest.png";
@@ -65,6 +68,10 @@ const Skills = () => {
               <div className="logo-description">Bootstrap</div>
             </div>
             <div className="div-category-frontend rounded bg-white m-1 p-1">
+              <img src={sass} alt="Sass" className="box-picture" />
+              <div className="logo-description">Sass</div>
+            </div>
+            <div className="div-category-frontend rounded bg-white m-1 p-1">
               <img src={jquery} alt="jquery" className="box-picture" />
               <div className="logo-description">jQuery</div>
             </div>
@@ -73,8 +80,16 @@ const Skills = () => {
               <div className="logo-description">React</div>
             </div>
             <div className="div-category-frontend rounded bg-white m-1 p-1">
-              <img src={materialUI} alt="React" className="box-picture" />
+              <img src={vue} alt="Vue" className="box-picture" />
+              <div className="logo-description">Vue</div>
+            </div>
+            <div className="div-category-frontend rounded bg-white m-1 p-1">
+              <img src={materialUI} alt="Material UI" className="box-picture" />
               <div className="logo-description">Material UI</div>
+            </div>
+            <div className="div-category-frontend rounded bg-white m-1 p-1">
+              <img src={elementlUI} alt="Element UI" className="box-picture" />
+              <div className="logo-description">Element UI</div>
             </div>
             <div className="div-category-backend rounded bg-white m-1 p-1">
               <img src={php} alt="PHP" className="box-picture" />
