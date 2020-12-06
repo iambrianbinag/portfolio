@@ -126,7 +126,7 @@ const Header = () => {
             "Hi",
             "Welcome!",
             "I'm Brian Binag",
-            "I'm a Full Stack Web Developer",
+            "I'm a Web Developer",
           ]}
         />
       </h1>
