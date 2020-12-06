@@ -54,7 +54,7 @@ const Contacts = () => {
             social="git"
             size="md"
             className="btn-github btn-contacts"
-            href="https://github.com/MutedFaith/"
+            href="https://github.com/iambrianbinag"
             target="_blank"
           >
             <MDBIcon fab icon="github" className="pr-1" /> Github
