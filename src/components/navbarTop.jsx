@@ -9,7 +9,7 @@ import {
   MDBContainer,
 } from "mdbreact";
 import { Link, animateScroll as scroll } from "react-scroll";
-import MyLogo from "../img/my-logo.png";
+import MyLogo from "../img/profile/my-logo.png";
 
 class NavbarTop extends Component {
   state = {

@@ -18,10 +18,10 @@ import ReactPlayer from "react-player";
 import ImageGallery from "react-image-gallery";
 import { posWithInventorySystemImages } from "../resources/images";
 
-import posinventorysystem from "../img/project-posinventorysystem.png";
-import clinicrecordmanagementsystem from "../img/project-clinicrecordmanagementsystem.png";
-import generalclinicmanagementsystem from "../img/project-generalclinicmanagementsystem.png";
-import covid19Tracker from "../img/project-covid-19-tracker.png";
+import posinventorysystem from "../img/projects/project-posinventorysystem.png";
+import clinicrecordmanagementsystem from "../img/projects/project-clinicrecordmanagementsystem.png";
+import generalclinicmanagementsystem from "../img/projects/project-generalclinicmanagementsystem.png";
+import covid19Tracker from "../img/projects/project-covid-19-tracker.png";
 import ScrollAnimation from "react-animate-on-scroll";
 
 const Projects = () => {
