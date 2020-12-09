@@ -22,10 +22,9 @@ const MyProfile = () => {
         <h3 className="mt-4">
           <strong>Objective</strong>
         </h3>
-        <p className="mt-2 p-1 w-50 blue-grey-text w-100">
+        <p className="mt-2 p-1 blue-grey-text w-responsive mx-auto">
           I'm a goal getter, as well as a self-starter, striving to learn and
-          hone my skills in web development. <br />
-          I'm a passionate web developer who loves challenges that makes me grow
+          hone my skills in web development. I'm a passionate web developer who loves challenges that makes me grow.
         </p>
       </ScrollAnimation>
       <ScrollAnimation animateIn="fadeIn" animateOnce>
