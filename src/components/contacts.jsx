@@ -5,7 +5,7 @@ import ScrollAnimation from "react-animate-on-scroll";
 const Contacts = () => {
   return (
     <div
-      className="elegant-color-dark white-text text-center pt-5 pb-5"
+      className="text-center pt-5 pb-5"
       id="contacts"
     >
       <ScrollAnimation animateIn="fadeIn" animateOnce>
