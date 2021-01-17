@@ -14,6 +14,7 @@ import Footer from "./components/Footer";
 import "react-image-gallery/styles/css/image-gallery.css";
 import "animate.css/animate.min.css";
 import "./styles/App.css";
+import "./styles/Timeline.css";
 
 function App() {
   return (

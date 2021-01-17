@@ -241,7 +241,7 @@ const Projects = () => {
                   />
                   <MDBCardBody>
                     <MDBCardTitle style={{ fontSize: 20 }}>
-                      Silicon Valley HQ
+                      SiliconValleyHQ
                     </MDBCardTitle>
                     <MDBCardText className="white-text">
                       It is a virtual ecosystem providing proprietary startup templates, mentorship access to 150+ experts, industry insights and a virtual acceleration program. I assigned in the minor integration of frontend and backend part. This project was in my internship.

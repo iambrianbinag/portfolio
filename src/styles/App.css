@@ -78,6 +78,12 @@ body {
   height: 75px;
 }
 
+/* EXPERIENCE */
+.experience-company-logo{
+  width: 25px;
+  height: 25px;
+}
+
 /* PROJECTS */
 @media (min-width: 768px) {
   .card-project {
