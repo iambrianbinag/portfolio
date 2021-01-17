@@ -22,6 +22,7 @@ import posinventorysystem from "../img/projects/project-posinventorysystem.png";
 import clinicrecordmanagementsystem from "../img/projects/project-clinicrecordmanagementsystem.png";
 import generalclinicmanagementsystem from "../img/projects/project-generalclinicmanagementsystem.png";
 import covid19Tracker from "../img/projects/project-covid-19-tracker.png";
+import siliconValleyHQ from "../img/projects/project-siliconvalleyhq.png";
 import ScrollAnimation from "react-animate-on-scroll";
 
 const Projects = () => {
@@ -199,7 +200,7 @@ const Projects = () => {
                 </MDBCard>
               </ScrollAnimation>
             </MDBCol>
-            <MDBCol md="6" lg="4" className="mb-4 offset-lg-4">
+            <MDBCol md="6" lg="4" className="mb-4 offset-lg-2">
               <ScrollAnimation animateIn="fadeIn" animateOnce>
                 <MDBCard className="card-project elegant-color-dark" border="border-light">
                   <MDBCardImage
@@ -222,6 +223,35 @@ const Projects = () => {
                     <MDBBtn
                       className="view-btn-fourth-project"
                       href="https://covid-19-tracker-worldwide.herokuapp.com/"
+                      target="_blank"
+                    >
+                      View
+                    </MDBBtn>
+                  </MDBCardBody>
+                </MDBCard>
+              </ScrollAnimation>
+            </MDBCol>
+            <MDBCol md="6" lg="4" className="mb-4 offset-md-3 offset-lg-0">
+              <ScrollAnimation animateIn="fadeIn" animateOnce>
+                <MDBCard className="card-project elegant-color-dark" border="border-light">
+                  <MDBCardImage
+                    className="img-fluid"
+                    src={siliconValleyHQ}
+                    waves
+                  />
+                  <MDBCardBody>
+                    <MDBCardTitle style={{ fontSize: 20 }}>
+                      Silicon Valley HQ
+                    </MDBCardTitle>
+                    <MDBCardText className="white-text">
+                      It is a virtual ecosystem providing proprietary startup templates, mentorship access to 150+ experts, industry insights and a virtual acceleration program. I assigned in the minor integration of frontend and backend part. This project was in my internship.
+                      <br />
+                      <br />
+                      Tech Stack: HTML, CSS, JavaScript, Bootstrap, jQuery, Vue, and Laravel
+                    </MDBCardText>
+                    <MDBBtn
+                      className="view-btn-fifth-project"
+                      href="http://siliconvalleyhq.com/"
                       target="_blank"
                     >
                       View
