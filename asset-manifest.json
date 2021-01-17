@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.47530c19.chunk.css",
-    "main.js": "/static/js/main.019c4a16.chunk.js",
-    "main.js.map": "/static/js/main.019c4a16.chunk.js.map",
+    "main.css": "/static/css/main.ad15692c.chunk.css",
+    "main.js": "/static/js/main.afe1b462.chunk.js",
+    "main.js.map": "/static/js/main.afe1b462.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.77eab09a.js",
     "runtime-main.js.map": "/static/js/runtime-main.77eab09a.js.map",
     "static/css/2.42455bd1.chunk.css": "/static/css/2.42455bd1.chunk.css",
-    "static/js/2.02985789.chunk.js": "/static/js/2.02985789.chunk.js",
-    "static/js/2.02985789.chunk.js.map": "/static/js/2.02985789.chunk.js.map",
+    "static/js/2.8b8f1658.chunk.js": "/static/js/2.8b8f1658.chunk.js",
+    "static/js/2.8b8f1658.chunk.js.map": "/static/js/2.8b8f1658.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.038dc2a8f8b92bedb4a1e88983cef10b.js": "/precache-manifest.038dc2a8f8b92bedb4a1e88983cef10b.js",
+    "precache-manifest.b8a7119b53ee580bde2e76063692b10b.js": "/precache-manifest.b8a7119b53ee580bde2e76063692b10b.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.42455bd1.chunk.css.map": "/static/css/2.42455bd1.chunk.css.map",
-    "static/css/main.47530c19.chunk.css.map": "/static/css/main.47530c19.chunk.css.map",
-    "static/js/2.02985789.chunk.js.LICENSE.txt": "/static/js/2.02985789.chunk.js.LICENSE.txt",
+    "static/css/main.ad15692c.chunk.css.map": "/static/css/main.ad15692c.chunk.css.map",
+    "static/js/2.8b8f1658.chunk.js.LICENSE.txt": "/static/js/2.8b8f1658.chunk.js.LICENSE.txt",
     "static/media/Binag_Resume.pdf": "/static/media/Binag_Resume.d8cca680.pdf",
     "static/media/App.css": "/static/media/RobotoCondensed-Regular.52ee8b59.ttf",
     "static/media/mdb.css": "/static/media/arrow_right.8ef6a08c.svg",
@@ -27,13 +27,14 @@
     "static/media/project-clinicrecordmanagementsystem.png": "/static/media/project-clinicrecordmanagementsystem.599b7d29.png",
     "static/media/project-covid-19-tracker.png": "/static/media/project-covid-19-tracker.b2258d1b.png",
     "static/media/project-generalclinicmanagementsystem.png": "/static/media/project-generalclinicmanagementsystem.ab45d914.png",
-    "static/media/project-posinventorysystem.png": "/static/media/project-posinventorysystem.862e1196.png"
+    "static/media/project-posinventorysystem.png": "/static/media/project-posinventorysystem.43bfddc2.png",
+    "static/media/project-siliconvalleyhq.png": "/static/media/project-siliconvalleyhq.2b9de0d3.png"
   },
   "entrypoints": [
     "static/js/runtime-main.77eab09a.js",
     "static/css/2.42455bd1.chunk.css",
-    "static/js/2.02985789.chunk.js",
-    "static/css/main.47530c19.chunk.css",
-    "static/js/main.019c4a16.chunk.js"
+    "static/js/2.8b8f1658.chunk.js",
+    "static/css/main.ad15692c.chunk.css",
+    "static/js/main.afe1b462.chunk.js"
   ]
 }
