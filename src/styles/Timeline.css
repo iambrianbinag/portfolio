@@ -7,24 +7,42 @@
   }
 }
 
-.stepper.timeline li a {
+.stepper.timeline li span.logo {
   padding: 0px 24px;
   left: 50%;
 }
 
+.stepper-vertical li span.logo {
+  position: relative;
+  display: flex;
+  align-self: flex-start;
+}
+
+ul.stepper li span.logo .circle {
+  display: inline-block;
+  margin-right: .5rem;
+  color: #fff;
+  background: rgba(0,0,0,0.38);
+  border-radius: 50%;
+}
+
+.stepper-vertical li span.logo .circle {
+  order: 1;
+}
+
 @media (max-width: 450px) {
-  .stepper.timeline li a {
+  .stepper.timeline li span.logo {
     left: 6%;
   }
 }
 
 @media (min-width: 451px) and (max-width: 1025px) {
-  .stepper.timeline li a {
+  .stepper.timeline li span.logo {
     left: 6%;
   }
 }
 
-.stepper.timeline li a .circle {
+.stepper.timeline li span.logo .circle {
   width: 50px;
   height: 50px;
   line-height: 50px;
@@ -172,24 +190,24 @@
   }
 }
 
-.stepper.colorful-timeline li a {
+.stepper.colorful-timeline li span.logo {
   padding: 0px 24px;
   left: 50%;
 }
 
 @media (max-width: 450px) {
-  .stepper.colorful-timeline li a {
+  .stepper.colorful-timeline li span.logo {
     left: 6%;
   }
 }
 
 @media (min-width: 451px) and (max-width: 1025px) {
-  .stepper.colorful-timeline li a {
+  .stepper.colorful-timeline li span.logo {
     left: 6%;
   }
 }
 
-.stepper.colorful-timeline li a .circle {
+.stepper.colorful-timeline li span.logo .circle {
   width: 50px;
   height: 50px;
   line-height: 50px;
@@ -355,24 +373,24 @@
   }
 }
 
-.stepper.timeline-animated li a {
+.stepper.timeline-animated li span.logo {
   padding: 0px 24px;
   left: 50%;
 }
 
 @media (max-width: 450px) {
-  .stepper.timeline-animated li a {
+  .stepper.timeline-animated li span.logo {
     left: 6%;
   }
 }
 
 @media (min-width: 451px) and (max-width: 1025px) {
-  .stepper.timeline-animated li a {
+  .stepper.timeline-animated li span.logo {
     left: 6%;
   }
 }
 
-.stepper.timeline-animated li a .circle {
+.stepper.timeline-animated li span.logo .circle {
   width: 50px;
   height: 50px;
   line-height: 50px;
@@ -520,24 +538,24 @@
   }
 }
 
-.stepper.timeline-simple li a {
+.stepper.timeline-simple li span.logo {
   padding: 0px;
   left: 50%;
 }
 
 @media (max-width: 450px) {
-  .stepper.timeline-simple li a {
+  .stepper.timeline-simple li span.logo {
     left: 6%;
   }
 }
 
 @media (min-width: 451px) and (max-width: 1025px) {
-  .stepper.timeline-simple li a {
+  .stepper.timeline-simple li span.logo {
     left: 6%;
   }
 }
 
-.stepper.timeline-simple li a .circle {
+.stepper.timeline-simple li span.logo .circle {
   margin-top: 0.9rem;
   width: 23px;
   height: 23px;
@@ -695,24 +713,24 @@
   }
 }
 
-.stepper.timeline-images li a {
+.stepper.timeline-images li span.logo {
   padding: 0px;
   left: 50%;
 }
 
 @media (max-width: 450px) {
-  .stepper.timeline-images li a {
+  .stepper.timeline-images li span.logo {
     left: 6%;
   }
 }
 
 @media (min-width: 451px) and (max-width: 1025px) {
-  .stepper.timeline-images li a {
+  .stepper.timeline-images li span.logo {
     left: 6%;
   }
 }
 
-.stepper.timeline-images li a .circle {
+.stepper.timeline-images li span.logo .circle {
   margin-top: 0.9rem;
   width: 23px;
   height: 23px;

@@ -19,14 +19,14 @@ const Experience = () => {
           {/* <!-- Timeline --> */}
           <ul className="stepper stepper-vertical colorful-timeline pl-0">
             <li>
-              <a href="">
+              <span className="logo">
                 <span className="circle elegant-color-dark z-depth-1-half">
                   <img src={layBare} 
                        alt="LayBare Waxing Philippines Inc." 
                        className="experience-company-logo"
                   />
                 </span>
-              </a>
+              </span>
               <div className="step-content z-depth-1 ml-xl-0 p-0 mt-2">
                 <div className="timeline-header elegant-color-dark white-text p-3">
                   <h4>Web Developer</h4>
@@ -41,14 +41,14 @@ const Experience = () => {
               </div>
             </li>
             <li className="timeline-inverted">
-              <a href="">
+              <span className="logo">
                 <span className="circle elegant-color-dark z-depth-1-half">
                   <img src={taktylStudios} 
                         alt="Taktyl Studios" 
                         className="experience-company-logo"
                   />
                 </span>
-              </a>
+              </span>
               <div className="step-content z-depth-1 ml-xl-0 p-0 mt-2">
                 <div className="timeline-header elegant-color-dark white-text p-3">
                   <h4>Web Developer Intern</h4>
