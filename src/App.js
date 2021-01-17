@@ -13,7 +13,7 @@ import Contacts from "./components/Contacts";
 import Footer from "./components/Footer";
 import "react-image-gallery/styles/css/image-gallery.css";
 import "animate.css/animate.min.css";
-import "./App.css";
+import "./styles/App.css";
 
 function App() {
   return (
