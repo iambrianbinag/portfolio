@@ -93,7 +93,7 @@ const Projects = () => {
           </div>
         </MDBModalBody>
       </MDBModal>
-      <div className="pt-5 pb-5 text-center" id="projects">
+      <div className="elegant-color-dark white-text pt-5 pb-5 text-center" id="projects">
         <h2 className="mt-3 mb-4">
           <strong>PROJECTS</strong>
         </h2>
@@ -101,7 +101,7 @@ const Projects = () => {
           <MDBRow>
             <MDBCol md="6" lg="4" className="mb-4">
               <ScrollAnimation animateIn="fadeIn" animateOnce>
-                <MDBCard className="card-project">
+                <MDBCard className="card-project elegant-color-dark" border="border-light">
                   <MDBCardImage
                     className="img-fluid"
                     src={clinicrecordmanagementsystem}
@@ -111,7 +111,7 @@ const Projects = () => {
                     <MDBCardTitle style={{ fontSize: 20 }}>
                       Rabies Treatment Clinic Record Management System
                     </MDBCardTitle>
-                    <MDBCardText>
+                    <MDBCardText className="white-text">
                       This system records and monitors the patients that were
                       bitten by animals which will be vaccinated to treat the
                       rabies. It has statistics to know the total number of
@@ -135,7 +135,7 @@ const Projects = () => {
             </MDBCol>
             <MDBCol md="6" lg="4" className="mb-4">
               <ScrollAnimation animateIn="fadeIn" animateOnce>
-                <MDBCard className="card-project">
+                <MDBCard className="card-project elegant-color-dark" border="border-light">
                   <MDBCardImage
                     className="img-fluid"
                     src={generalclinicmanagementsystem}
@@ -145,7 +145,7 @@ const Projects = () => {
                     <MDBCardTitle style={{ fontSize: 20 }}>
                       General Clinic Management System
                     </MDBCardTitle>
-                    <MDBCardText>
+                    <MDBCardText className="white-text">
                       This system manages patient records including case
                       history, documents, prescriptions, appointments, and
                       payments. It has inventory that tracks the stocks of
@@ -168,7 +168,7 @@ const Projects = () => {
             </MDBCol>
             <MDBCol md="6" lg="4" className="mb-4">
               <ScrollAnimation animateIn="fadeIn" animateOnce>
-                <MDBCard className="card-project">
+                <MDBCard className="card-project elegant-color-dark" border="border-light">
                   <MDBCardImage
                     className="img-fluid"
                     src={posinventorysystem}
@@ -178,7 +178,7 @@ const Projects = () => {
                     <MDBCardTitle style={{ fontSize: 20 }}>
                       POS with Inventory System using Barcode Scanner
                     </MDBCardTitle>
-                    <MDBCardText>
+                    <MDBCardText className="white-text">
                       This system processes and records the transactions between
                       the store and customers, cancel transaction, tracks the
                       status of stocks and alert if the quantity is in critical
@@ -201,7 +201,7 @@ const Projects = () => {
             </MDBCol>
             <MDBCol md="6" lg="4" className="mb-4 offset-lg-4">
               <ScrollAnimation animateIn="fadeIn" animateOnce>
-                <MDBCard className="card-project">
+                <MDBCard className="card-project elegant-color-dark" border="border-light">
                   <MDBCardImage
                     className="img-fluid"
                     src={covid19Tracker}
@@ -211,7 +211,7 @@ const Projects = () => {
                     <MDBCardTitle style={{ fontSize: 20 }}>
                       Covid-19 Tracker Worldwide
                     </MDBCardTitle>
-                    <MDBCardText>
+                    <MDBCardText className="white-text">
                       Tracks current Covid-19 status worldwide including the
                       outbreak trend cases in the past 98 days. The data is
                       being fetched from an API.
