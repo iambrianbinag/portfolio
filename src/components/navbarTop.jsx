@@ -67,6 +67,7 @@ class NavbarTop extends Component {
             <MDBNavbarNav className="text-center" right>
               <MDBNavItem>{this.setLink("profile", "MY PROFILE")}</MDBNavItem>
               <MDBNavItem>{this.setLink("skills", "SKILLS")}</MDBNavItem>
+              <MDBNavItem>{this.setLink("experience", "EXPERIENCE")}</MDBNavItem>
               <MDBNavItem>{this.setLink("projects", "PROJECTS")}</MDBNavItem>
               <MDBNavItem>{this.setLink("contacts", "CONTACTS")}</MDBNavItem>
             </MDBNavbarNav>
