@@ -7,6 +7,7 @@ import NavbarBottom from "./components/NavbarBottom";
 import Header from "./components/Header";
 import MyProfile from "./components/MyProfile";
 import Skills from "./components/Skills";
+import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import Contacts from "./components/Contacts";
 import Footer from "./components/Footer";
@@ -21,6 +22,7 @@ function App() {
       <Header />
       <MyProfile />
       <Skills />
+      <Experience />
       <Projects />
       <Contacts />
       <Footer />
