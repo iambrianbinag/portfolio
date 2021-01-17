@@ -7,6 +7,15 @@
   }
 }
 
+ul.stepper {
+  padding: 0 1.5rem;
+  padding: 1.5rem;
+  margin: 1em -0.9rem;
+  overflow-x: hidden;
+  overflow-y: auto;
+  counter-reset: section;
+}
+
 .stepper.timeline li span.logo {
   padding: 0px 24px;
   left: 50%;
