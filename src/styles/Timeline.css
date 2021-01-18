@@ -242,8 +242,8 @@ ul.stepper li span.logo .circle {
   right: -15px;
   display: inline-block;
   border-top: 15px solid transparent;
-  border-left: 15px solid#212121;
-  border-right: 0 solid#212121;
+  border-left: 15px solid #212121;
+  border-right: 0 solid #212121;
   border-bottom: 15px solid transparent;
   content: " ";
 }
