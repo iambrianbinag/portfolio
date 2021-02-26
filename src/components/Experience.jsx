@@ -56,7 +56,7 @@ const Experience = () => {
                 </div>
                 <p className="text-muted mt-4 px-4"><i className="far fa-clock" aria-hidden="true"></i> October 2020 - October 2020</p>
                 <p className="mb-0 px-4 pb-4">
-                  I developed a game web portal site for the company wherein they used to showcase their game product to the possible clients. I also onboarded in <a href="http://siliconvalleyhq.com/" alt="SilliconValleyHQ" target="_blank" className="timeline-description-link" rel="noopener noreferrer">SilliconValleyHQ</a> project where I did the minor integration of frontend and backend part.
+                  I developed a game web portal site for the company wherein they used to showcase their game products to the possible clients. I also onboarded in <a href="https://siliconvalleyhq.com/" alt="SilliconValleyHQ" target="_blank" className="timeline-description-link" rel="noopener noreferrer">SilliconValleyHQ</a> project where I did the minor integration of frontend and backend part.
                   <br/><br/>
                   Tech stack: HTML, CSS, JavaScript, Bootstrap, jQuery, Vue, and Laravel
                 </p>

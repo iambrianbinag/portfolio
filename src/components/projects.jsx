@@ -251,7 +251,7 @@ const Projects = () => {
                     </MDBCardText>
                     <MDBBtn
                       className="view-btn-fifth-project"
-                      href="http://siliconvalleyhq.com/"
+                      href="https://siliconvalleyhq.com/"
                       target="_blank"
                     >
                       View
