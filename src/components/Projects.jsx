@@ -158,7 +158,7 @@ const Projects = () => {
                     </MDBCardText>
                     <MDBBtn
                       className="view-btn-second-project"
-                      href="https://clinicare.site"
+                      href="https://clinicare.brianbinag.cf"
                       target="_blank"
                     >
                       View
