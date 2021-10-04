@@ -41,6 +41,16 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
+### `npm run predeploy`
+
+Alias for `npm run build` command
+
+### `npm run deploy`
+
+Deploy the built project on [Github pages](https://pages.github.com)
+
+**Note: After you run this command and the project is using a custom domain, the configuration settings of the custom domain will change to the default Github's subdomain `(*.github.io)`, so make sure to reconfigure your custom domain in settings after you run this command.**
+
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
