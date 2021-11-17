@@ -32,7 +32,7 @@ const Experience = () => {
                   <h4>Backend Developer</h4>
                   <h5 className="m-0">LayBare Waxing Philippines Inc.</h5>
                 </div>
-                <p className="text-muted mt-4 px-4"><i className="far fa-clock" aria-hidden="true"></i> November 2020 - Current</p>
+                <p className="text-muted mt-4 px-4"><i className="far fa-clock" aria-hidden="true"></i> November 2020 - Present</p>
                 <p className="mb-0 px-4 pb-4">
                   -  Developed and maintained the existing system of the company.
                   <br />
