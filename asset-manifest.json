@@ -1,25 +1,23 @@
 {
   "files": {
     "main.css": "/static/css/main.1c8eaebc.chunk.css",
-    "main.js": "/static/js/main.0372d053.chunk.js",
-    "main.js.map": "/static/js/main.0372d053.chunk.js.map",
+    "main.js": "/static/js/main.2ecf6fc5.chunk.js",
+    "main.js.map": "/static/js/main.2ecf6fc5.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.77eab09a.js",
     "runtime-main.js.map": "/static/js/runtime-main.77eab09a.js.map",
     "static/css/2.42455bd1.chunk.css": "/static/css/2.42455bd1.chunk.css",
-    "static/js/2.de147b61.chunk.js": "/static/js/2.de147b61.chunk.js",
-    "static/js/2.de147b61.chunk.js.map": "/static/js/2.de147b61.chunk.js.map",
+    "static/js/2.14fedaeb.chunk.js": "/static/js/2.14fedaeb.chunk.js",
+    "static/js/2.14fedaeb.chunk.js.map": "/static/js/2.14fedaeb.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.989d21cdb6475767ffacecc878d66315.js": "/precache-manifest.989d21cdb6475767ffacecc878d66315.js",
+    "precache-manifest.bebae21e90075ee86cefb4cdfcc9bb2a.js": "/precache-manifest.bebae21e90075ee86cefb4cdfcc9bb2a.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.42455bd1.chunk.css.map": "/static/css/2.42455bd1.chunk.css.map",
     "static/css/main.1c8eaebc.chunk.css.map": "/static/css/main.1c8eaebc.chunk.css.map",
-    "static/js/2.de147b61.chunk.js.LICENSE.txt": "/static/js/2.de147b61.chunk.js.LICENSE.txt",
-    "static/media/Binag_Resume.pdf": "/static/media/Binag_Resume.d8cca680.pdf",
+    "static/js/2.14fedaeb.chunk.js.LICENSE.txt": "/static/js/2.14fedaeb.chunk.js.LICENSE.txt",
     "static/media/App.css": "/static/media/RobotoCondensed-Regular.52ee8b59.ttf",
     "static/media/mdb.css": "/static/media/arrow_right.8ef6a08c.svg",
     "static/media/all.min.css": "/static/media/fa-solid-900.ec763292.svg",
     "static/media/logo-bootstrap.png": "/static/media/logo-bootstrap.70c22f8a.png",
-    "static/media/logo-java.png": "/static/media/logo-java.c6a43a42.png",
     "static/media/logo-jquery.png": "/static/media/logo-jquery.63212037.png",
     "static/media/logo-react.png": "/static/media/logo-react.fc93dda8.png",
     "static/media/logo-rest.png": "/static/media/logo-rest.ec82f1a1.png",
@@ -33,8 +31,8 @@
   "entrypoints": [
     "static/js/runtime-main.77eab09a.js",
     "static/css/2.42455bd1.chunk.css",
-    "static/js/2.de147b61.chunk.js",
+    "static/js/2.14fedaeb.chunk.js",
     "static/css/main.1c8eaebc.chunk.css",
-    "static/js/main.0372d053.chunk.js"
+    "static/js/main.2ecf6fc5.chunk.js"
   ]
 }
