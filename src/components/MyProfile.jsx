@@ -20,11 +20,10 @@ const MyProfile = () => {
       </ScrollAnimation>
       <ScrollAnimation animateIn="fadeIn" animateOnce>
         <h3 className="mt-4">
-          <strong>Objective</strong>
+          <strong>About</strong>
         </h3>
         <p className="mt-2 p-1 blue-grey-text w-responsive mx-auto">
-          I'm a goal getter, as well as a self-starter, striving to learn and
-          hone my skills in web development. I'm a passionate web developer who loves challenges that makes me grow.
+          I'm a passionate web developer, likes to explore new things and currently focusing on Vue and Laravel.
         </p>
       </ScrollAnimation>
       <ScrollAnimation animateIn="fadeIn" animateOnce>
