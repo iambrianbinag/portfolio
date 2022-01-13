@@ -1,3 +1,3 @@
-const myResumeLink = 'https://drive.google.com/file/d/1MhUhGtPLaEa0YX6OtxOdzuuKIQ_3w2wr/view?usp=sharing';
+const myResumeLink = 'https://drive.google.com/file/d/1pU4VNN5iqj88AGDGRD6Ld3Vg7l9rME0Q/view?usp=sharing';
 
 export { myResumeLink };

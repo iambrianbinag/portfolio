@@ -34,9 +34,9 @@ const Experience = () => {
                 </div>
                 <p className="text-muted mt-4 px-4"><i className="far fa-clock" aria-hidden="true"></i> November 2020 - Present</p>
                 <p className="mb-0 px-4 pb-4">
-                  -  Developed and maintained the existing system of the company.
+                  -  Develop and maintain the existing system of the company.
                   <br />
-                  -  Refactored and optimized the current codebase.
+                  -  Refactor and optimize the current codebase.
                   <br />
                   -  API development.
                   <br/><br/>
