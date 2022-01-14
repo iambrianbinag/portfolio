@@ -36,7 +36,7 @@ const Experience = () => {
                 <p className="mb-0 px-4 pb-4">
                   -  Develop and maintain the existing system of the company.
                   <br />
-                  -  Refactor and optimize the current codebase.
+                  -  Optimize some modules in the codebase.
                   <br />
                   -  API development.
                   <br/><br/>
