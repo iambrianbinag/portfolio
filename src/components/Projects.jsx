@@ -125,7 +125,7 @@ const Projects = () => {
                     </MDBCardText>
                     <MDBBtn
                       className="view-btn-first-project"
-                      href="https://clinicrecordmanagement.ml"
+                      href="https://rabiesvanish.ml"
                       target="_blank"
                     >
                       View
@@ -158,7 +158,7 @@ const Projects = () => {
                     </MDBCardText>
                     <MDBBtn
                       className="view-btn-second-project"
-                      href="https://clinicare.brianbinag.cf"
+                      href="https://clinicare.brianbinag.ml"
                       target="_blank"
                     >
                       View
