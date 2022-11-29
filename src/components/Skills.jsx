@@ -13,7 +13,7 @@ import vue from "../img/skills/logo-vue.png";
 // import vuetify from "../img/skills/logo-vuetify.png";
 import php from "../img/skills/logo-php.png";
 import laravel from "../img/skills/logo-laravel.png";
-import rest from "../img/skills/logo-rest.png";
+// import rest from "../img/skills/logo-rest.png";
 import mysql from "../img/skills/logo-mysql.png";
 // import csharp from "../img/skills/logo-csharp.png";
 // import java from "../img/skills/logo-java.png";
@@ -104,10 +104,10 @@ const Skills = () => {
               <img src={laravel} alt="Laravel" className="box-picture" />
               <div className="logo-description">Laravel</div>
             </div>
-            <div className="div-category-backend rounded bg-white m-1 p-1">
+            {/* <div className="div-category-backend rounded bg-white m-1 p-1">
               <img src={rest} alt="Laravel" className="box-picture" />
               <div className="logo-description">RESTful API</div>
-            </div>
+            </div> */}
             <div className="div-category-backend rounded bg-white m-1 p-1">
               <img src={mysql} alt="MySQL" className="box-picture" />
               <div className="logo-description">MySQL</div>
