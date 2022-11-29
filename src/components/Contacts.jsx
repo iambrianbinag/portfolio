@@ -59,7 +59,7 @@ const Contacts = () => {
           >
             <MDBIcon fab icon="github" className="pr-1" /> Github
           </MDBBtn>
-          <MDBBtn
+          {/* <MDBBtn
             social="so"
             size="md"
             className="btn-stack-overflow btn-contacts"
@@ -68,7 +68,7 @@ const Contacts = () => {
           >
             <MDBIcon fab icon="stack-overflow" className="pr-1" /> Stack
             Overflow
-          </MDBBtn>
+          </MDBBtn> */}
         </MDBContainer>
       </ScrollAnimation>
     </div>
