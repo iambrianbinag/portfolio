@@ -4,6 +4,7 @@ import { MDBContainer } from "mdbreact";
 
 import taktylStudios from "../img/experience/logo-taktyl_studios.png";
 import layBare from "../img/experience/logo-laybare.png";
+import confidential from "../img/experience/logo-confidential.png";
 
 const Experience = () => {
   return (
@@ -21,6 +22,28 @@ const Experience = () => {
             <li>
               <span className="logo">
                 <span className="circle elegant-color-dark z-depth-1-half">
+                  <img src={confidential} 
+                        alt="Confidential" 
+                        className="experience-company-logo"
+                  />
+                </span>
+              </span>
+              <div className="step-content z-depth-1 ml-xl-0 p-0 mt-2">
+                <div className="timeline-header elegant-color-dark white-text p-3">
+                  <h4>Software Engineer</h4>
+                  <h5 className="m-0">Confidential</h5>
+                </div>
+                <p className="text-muted mt-4 px-4"><i className="far fa-clock" aria-hidden="true"></i> May 2022 - Present</p>
+                <p className="mb-0 px-4 pb-4">
+                  - Part of a development team developing SaaS product
+                  <br/><br/>
+                  Tech stack: Vue and Laravel
+                </p>
+              </div>
+            </li>
+            <li className="timeline-inverted">
+              <span className="logo">
+                <span className="circle elegant-color-dark z-depth-1-half">
                   <img src={layBare} 
                        alt="LayBare Waxing Philippines Inc." 
                        className="experience-company-logo"
@@ -32,11 +55,11 @@ const Experience = () => {
                   <h4>Backend Developer</h4>
                   <h5 className="m-0">LayBare Waxing Philippines Inc.</h5>
                 </div>
-                <p className="text-muted mt-4 px-4"><i className="far fa-clock" aria-hidden="true"></i> November 2020 - Present</p>
+                <p className="text-muted mt-4 px-4"><i className="far fa-clock" aria-hidden="true"></i> November 2020 - April 2022</p>
                 <p className="mb-0 px-4 pb-4">
-                  -  Develop and maintain the existing system of the company.
+                  -  Developed and maintained the existing system of the company.
                   <br />
-                  -  Optimize some modules in the codebase.
+                  -  Optimized some modules in the codebase.
                   <br />
                   -  API development.
                   <br/><br/>
@@ -44,7 +67,7 @@ const Experience = () => {
                 </p>
               </div>
             </li>
-            <li className="timeline-inverted">
+            <li>
               <span className="logo">
                 <span className="circle elegant-color-dark z-depth-1-half">
                   <img src={taktylStudios} 

@@ -23,7 +23,7 @@ const MyProfile = () => {
           <strong>About</strong>
         </h3>
         <p className="mt-2 p-1 blue-grey-text w-responsive mx-auto">
-          I'm a passionate web developer, likes to explore new things and currently developing on Vue and Laravel.
+          I'm a web developer, and currently developing on Vue and Laravel.
         </p>
       </ScrollAnimation>
       <ScrollAnimation animateIn="fadeIn" animateOnce>

@@ -31,7 +31,7 @@ const Contacts = () => {
           >
             <MDBIcon fab icon="linkedin-in" className="pr-1" /> Linkedin
           </MDBBtn>
-          <MDBBtn
+          {/* <MDBBtn
             social="fb"
             size="md"
             className="btn-facebook btn-contacts"
@@ -49,7 +49,7 @@ const Contacts = () => {
             target="_blank"
           >
             <MDBIcon fab icon="youtube" className="pr-1" /> Youtube
-          </MDBBtn>
+          </MDBBtn> */}
           <MDBBtn
             social="git"
             size="md"

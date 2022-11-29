@@ -4,18 +4,18 @@ import html5 from "../img/skills/logo-html5.png";
 import css3 from "../img/skills/logo-css3.png";
 import javascript from "../img/skills/logo-javascript.png";
 import bootstrap from "../img/skills/logo-bootstrap.png";
-import sass from "../img/skills/logo-sass.png";
+// import sass from "../img/skills/logo-sass.png";
 import jquery from "../img/skills/logo-jquery.png";
 import react from "../img/skills/logo-react.png";
 import vue from "../img/skills/logo-vue.png";
-import materialUI from "../img/skills/logo-material-ui.png";
-import elementlUI from "../img/skills/logo-element-ui.png";
-import vuetify from "../img/skills/logo-vuetify.png";
+// import materialUI from "../img/skills/logo-material-ui.png";
+// import elementlUI from "../img/skills/logo-element-ui.png";
+// import vuetify from "../img/skills/logo-vuetify.png";
 import php from "../img/skills/logo-php.png";
 import laravel from "../img/skills/logo-laravel.png";
 import rest from "../img/skills/logo-rest.png";
 import mysql from "../img/skills/logo-mysql.png";
-import csharp from "../img/skills/logo-csharp.png";
+// import csharp from "../img/skills/logo-csharp.png";
 // import java from "../img/skills/logo-java.png";
 import git from "../img/skills/logo-git.png";
 // import postman from "../img/logo-postman.png";
@@ -68,10 +68,10 @@ const Skills = () => {
               <img src={bootstrap} alt="Bootstrap" className="box-picture" />
               <div className="logo-description">Bootstrap</div>
             </div>
-            <div className="div-category-frontend rounded bg-white m-1 p-1">
+            {/* <div className="div-category-frontend rounded bg-white m-1 p-1">
               <img src={sass} alt="Sass" className="box-picture" />
               <div className="logo-description">Sass</div>
-            </div>
+            </div> */}
             <div className="div-category-frontend rounded bg-white m-1 p-1">
               <img src={jquery} alt="jquery" className="box-picture" />
               <div className="logo-description">jQuery</div>
@@ -84,7 +84,7 @@ const Skills = () => {
               <img src={vue} alt="Vue" className="box-picture" />
               <div className="logo-description">Vue</div>
             </div>
-            <div className="div-category-frontend rounded bg-white m-1 p-1">
+            {/* <div className="div-category-frontend rounded bg-white m-1 p-1">
               <img src={materialUI} alt="Material UI" className="box-picture" />
               <div className="logo-description">Material UI</div>
             </div>
@@ -95,7 +95,7 @@ const Skills = () => {
             <div className="div-category-frontend rounded bg-white m-1 p-1">
               <img src={vuetify} alt="Vuetify" className="box-picture" />
               <div className="logo-description">Vuetify</div>
-            </div>
+            </div> */}
             <div className="div-category-backend rounded bg-white m-1 p-1">
               <img src={php} alt="PHP" className="box-picture" />
               <div className="logo-description">PHP</div>
@@ -112,11 +112,11 @@ const Skills = () => {
               <img src={mysql} alt="MySQL" className="box-picture" />
               <div className="logo-description">MySQL</div>
             </div>
-            <div className="div-category-others rounded bg-white m-1 p-1">
+            {/* <div className="div-category-others rounded bg-white m-1 p-1">
               <img src={csharp} alt="C#" className="box-picture" />
               <div className="logo-description">C#</div>
             </div>
-            {/* <div className="div-category-others rounded bg-white m-1 p-1">
+            <div className="div-category-others rounded bg-white m-1 p-1">
               <img src={java} alt="Java" className="box-picture" />
               <div className="logo-description">Java</div>
             </div> */}
