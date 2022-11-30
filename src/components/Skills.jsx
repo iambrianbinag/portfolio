@@ -46,9 +46,9 @@ const Skills = () => {
             <div className="div-category-tools bg-white m-1 p-1">
               <div>Development Tools</div>
             </div>
-            <div className="div-category-others bg-white m-1 p-1">
+            {/* <div className="div-category-others bg-white m-1 p-1">
               <div>Others</div>
-            </div>
+            </div> */}
           </div>
           <hr className="bg-white" />
           <div className="div-logo-group d-flex flex-wrap justify-content-center grey-text mt-4 pb-5">
